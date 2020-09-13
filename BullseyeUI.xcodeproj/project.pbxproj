@@ -17,6 +17,9 @@
 		D6530F122506BD88000E0CE6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6530F112506BD88000E0CE6 /* AboutViewController.swift */; };
 		D6530F142506BFCF000E0CE6 /* Bullseye.html in Resources */ = {isa = PBXBuildFile; fileRef = D6530F132506BFCF000E0CE6 /* Bullseye.html */; };
 		D6530F172506C041000E0CE6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6530F162506C041000E0CE6 /* WebKit.framework */; };
+		D6535567250D5C7C0091D13F /* HighScoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6535566250D5C7C0091D13F /* HighScoreItem.swift */; };
+		D653556B250DC2BF0091D13F /* PersistencyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D653556A250DC2BF0091D13F /* PersistencyHelper.swift */; };
+		D653556D250DC9010091D13F /* EditHighScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D653556C250DC9010091D13F /* EditHighScoreViewController.swift */; };
 		D65B2C9E2506C38300486A87 /* HighScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B2C9D2506C38300486A87 /* HighScoresViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +36,9 @@
 		D6530F112506BD88000E0CE6 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		D6530F132506BFCF000E0CE6 /* Bullseye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Bullseye.html; sourceTree = "<group>"; };
 		D6530F162506C041000E0CE6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D6535566250D5C7C0091D13F /* HighScoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreItem.swift; sourceTree = "<group>"; };
+		D653556A250DC2BF0091D13F /* PersistencyHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistencyHelper.swift; sourceTree = "<group>"; };
+		D653556C250DC9010091D13F /* EditHighScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHighScoreViewController.swift; sourceTree = "<group>"; };
 		D65B2C9D2506C38300486A87 /* HighScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoresViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,13 +78,16 @@
 				D621F49B24FC8A96000AB61A /* AppDelegate.swift */,
 				D621F49D24FC8A96000AB61A /* SceneDelegate.swift */,
 				D621F49F24FC8A96000AB61A /* ViewController.swift */,
-				D6530F112506BD88000E0CE6 /* AboutViewController.swift */,
 				D621F4A124FC8A96000AB61A /* Main.storyboard */,
+				D6530F112506BD88000E0CE6 /* AboutViewController.swift */,
 				D65B2C9D2506C38300486A87 /* HighScoresViewController.swift */,
 				D621F4A424FC8A96000AB61A /* ContentView.swift */,
 				D621F4A624FC8A99000AB61A /* Assets.xcassets */,
 				D621F4A824FC8A99000AB61A /* LaunchScreen.storyboard */,
 				D621F4AB24FC8A99000AB61A /* Info.plist */,
+				D6535566250D5C7C0091D13F /* HighScoreItem.swift */,
+				D653556A250DC2BF0091D13F /* PersistencyHelper.swift */,
+				D653556C250DC9010091D13F /* EditHighScoreViewController.swift */,
 			);
 			path = BullseyeUI;
 			sourceTree = "<group>";
@@ -165,9 +174,12 @@
 				D65B2C9E2506C38300486A87 /* HighScoresViewController.swift in Sources */,
 				D621F4A024FC8A96000AB61A /* ViewController.swift in Sources */,
 				D621F49C24FC8A96000AB61A /* AppDelegate.swift in Sources */,
+				D653556B250DC2BF0091D13F /* PersistencyHelper.swift in Sources */,
 				D621F4A524FC8A96000AB61A /* ContentView.swift in Sources */,
+				D653556D250DC9010091D13F /* EditHighScoreViewController.swift in Sources */,
 				D6530F122506BD88000E0CE6 /* AboutViewController.swift in Sources */,
 				D621F49E24FC8A96000AB61A /* SceneDelegate.swift in Sources */,
+				D6535567250D5C7C0091D13F /* HighScoreItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
