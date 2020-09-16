@@ -296,6 +296,9 @@
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="High Scorer name" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xjt-dd-RfP">
                                                     <rect key="frame" x="20" y="20" width="696" height="4"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="696" id="OUg-Mf-TNv"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                                     <connections>
@@ -333,7 +336,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="textField" destination="Ojb-O0-tUF" id="zvU-yA-JJb"/>
+                        <outlet property="doneBarButton" destination="tXH-vP-aOP" id="zLx-me-NcC"/>
+                        <outlet property="textField" destination="Xjt-dd-RfP" id="QLj-AY-j0z"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9D3-x7-Icw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

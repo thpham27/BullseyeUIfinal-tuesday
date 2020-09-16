@@ -6,26 +6,6 @@
 //
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import UIKit
 
 protocol EditHighScoreViewControllerDelegate: class {
@@ -50,9 +30,6 @@ class EditHighScoreViewController: UITableViewController, UITextFieldDelegate {
     override func viewWillAppear(_ animated: Bool) {
           super.viewWillAppear(animated)
           textField.becomeFirstResponder() }
-    
-    
-    
     
     // MARK:- Actions
 @IBAction func cancel() {
